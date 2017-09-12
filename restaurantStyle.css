@@ -1,6 +1,7 @@
 h1 {
     text-align: center;
     color: darkblue;
+    font-family: "Georgia";
 }
 
 h3 {
@@ -11,4 +12,8 @@ h3 {
 body {
     background-color: lightgrey;
     font-family: verdana;
+}
+
+form {
+    text-align: center;
 }
