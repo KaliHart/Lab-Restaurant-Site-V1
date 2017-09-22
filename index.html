@@ -2,24 +2,43 @@
 <html>
     <head>
         <title>Home Page</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="restaurantStyle.css"
         rel="stylesheet"
         type="text/css" />
     </head>
+
+    <div class="Containter">
+        <div class="jumbotron">
+            <h1>We are opening a new location!</h1>
+        </div>
+    </div>
+
     <body>
         <h1>Restaurant</h1>
-        <hr>
-        <a href="index.html">Home</a>
-        <a href="menu.html">Menu</a>
-        <a href="contact.html">Contact Us</a>
-        <hr>
+        <div class="container">
+            <ul class="nav nav-tabs">
+        <li><a href="index.html"><span class="glyphicon glyphicon-home"></a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+
+    </br>
+    <div class="container">
+            <div class="row">
+                <div class="col-md-12"></div>
         <p align="center">
         <img src="BurgerAndFries.jpg"
         alt="Burger and Fries"
         style="width: 400px; height: 150px"/>
         <br>
         <style>
-        div {
+        #description {
             margin: auto;
             border: 2px solid black;
             background-color: burlywood;
@@ -28,8 +47,10 @@
             padding: 10px;
         }
         </style>
-        <div> Restaurant Description<br> This is a desciption of the restaurant.</div>
+        <div id="description"> Restaurant Description<br> This is a desciption of the restaurant.</div>
         </p>
+    </div>
+    
         <hr>
         <h3>123 Fake Street, Springfield, MA 00001<h3>
         <h3>555-2525<h3>
